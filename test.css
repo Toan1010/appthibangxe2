@@ -1,0 +1,32 @@
+/* Style for the sticky navigation */
+body{display: flex;}
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.sticky-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sticky-nav li {
+    margin-bottom: 10px;
+}
+
+/* Style for the components */
+.component {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.sticky-nav a.active {
+    font-weight: bold;
+}
+.contain{
+    height: 700px;
+    overflow: scroll;
+}

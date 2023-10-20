@@ -1,0 +1,76 @@
+.header {
+ margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1em;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #5c6664;
+  background-image: none;
+  flex: 1;
+  padding: 0 1em;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+}
+select::-ms-expand {
+  display: none;
+}
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #5c6664;
+  overflow: hidden;
+  border-radius: 0.25em;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #2b2e2e;
+  cursor: pointer;
+  pointer-events: none;
+  transition: 0.25s all ease;
+}
+.select:hover::after {
+  color: #23b499;
+}
+button {
+  width: 7em;
+  height: 3em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+.Start {
+  background-color: rgb(149, 245, 5);
+  color: yellow;
+}
+
+.End {
+  background-color: rgb(208,0,0);
+  color: aliceblue;
+}
+
+.Again {
+  background-color: rgb(242, 127, 39);
+  color: aliceblue;
+}

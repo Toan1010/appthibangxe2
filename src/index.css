@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  font-size: 62.5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  justify-content: center;
+  background-image: linear-gradient(to right, #331c72, #822a84);
+  color: antiquewhite;
+}
+
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+/* Customize the scrollbar */
+/* For webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 1px;
+  scrollbar-width: thin;
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: px;
+}
+
+/* Customize the scrollbar track when hovering over it */

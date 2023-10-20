@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.content {
+  height: 630px;
+  display: flex;
+}
+
+.list {
+  margin: 20px;
+  width: 1150px;
+  height: 600px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #ddd;
+  h1 {
+    color: rgb(93, 25, 250);
+  }
+}
