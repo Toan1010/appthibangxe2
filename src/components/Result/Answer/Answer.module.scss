@@ -1,0 +1,29 @@
+.right {
+  width: 80%;
+  height: 75vh;
+  margin: 10px;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.answer {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.question {
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 50px;
+}
+.true {
+  color: yellowgreen;
+}
+.wrong {
+  color: red;
+}

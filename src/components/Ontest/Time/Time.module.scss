@@ -1,0 +1,36 @@
+.left {
+  width: 20%;
+  height: 60%;
+  margin: 10px;
+  padding: 25px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+.countdown p {
+  font-size: 20px;
+  color: #333;
+}
+.countdown span {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.countdown {
+  margin-bottom: 30px;
+}
+.navigate button {
+  color: black;
+  display: inline-flex;
+  border-radius: 3px;
+  border: 1px solid;
+  font-weight: bolder;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none !important;
+}

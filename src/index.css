@@ -6,7 +6,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: Helvetica;
 }
 
 body {
@@ -14,8 +14,7 @@ body {
   line-height: 1.5;
   text-rendering: optimizeSpeed;
   justify-content: center;
-  background-image: linear-gradient(to right, #331c72, #822a84);
-  color: antiquewhite;
+  background-color: #f5f5f5;
 }
 
 *::after,
@@ -24,17 +23,14 @@ body {
   margin: 0;
 }
 
-/* Customize the scrollbar */
-/* For webkit-based browsers (Chrome, Safari) */
-::-webkit-scrollbar {
-  width: 1px;
-  scrollbar-width: thin;
+/* Hide the scrollbar but allow scrolling */
+.scrollable-element {
+  overflow: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
-/* Customize the scrollbar thumb */
-::-webkit-scrollbar-thumb {
-  background-color: transparent;
-  border-radius: px;
+/* Style for Webkit (Chrome, Safari) */
+.scrollable-element::-webkit-scrollbar {
+  display: none;
 }
-
-/* Customize the scrollbar track when hovering over it */
